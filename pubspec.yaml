@@ -1,0 +1,22 @@
+name: native_pdf_view
+description: Flutter plugin to render PDF files on Web, MacOS, Windows, Android and iOS.
+repository: https://github.com/rbcprolabs/packages.flutter/tree/master/packages/native_pdf_view
+issue_tracker: https://github.com/rbcprolabs/packages.flutter/issues?q=is%3Aissue+is%3Aopen+label%3A%22p%3A+native_pdf_view%22
+version: 6.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies: 
+  flutter:
+    sdk: flutter
+  pdfx: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+# dependency_overrides:
+#   pdf_renderer: 
+#     path: ../pdf_renderer
